@@ -5,8 +5,8 @@
 
 $(document).ready(function(){
     // определяем константы
-    var el = $(LSC_ELEMENT);
-    var max_down = $(LSC_FOOTER).outerHeight(true);
+    var el = $('#scroll');
+    var max_down = $('#footer').outerHeight(true);
 
     var doc = $(document);
     var win = $(window);
